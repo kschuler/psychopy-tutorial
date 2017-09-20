@@ -20,5 +20,7 @@ Before you attend the tutorial, you'll need to install PsychoPy on your computer
 - [Day 4: Adding code snippets to for more complex handling](day-4.md)
 
 ### Additional Resources
+- Ask a question and get an answer on [PsychoPy's support page](http://discourse.psychopy.org/)
+- Search the old [psychopy-users google group](https://groups.google.com/forum/#!forum/psychopy-users) for answers
 - [Video tutorial - how to create a stroop task in PsychoPy](https://www.youtube.com/watch?v=VV6qhuQgsiI)
 - [Video tutorial - how to create a language experiment in PsychoPy](https://www.youtube.com/watch?v=WKJBbVnQkj0)
