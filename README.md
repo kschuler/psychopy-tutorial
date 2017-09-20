@@ -1,6 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to the PsychoPy Tutorial
+
+### What is Psychopy?
+
+### Installing PsychoPy
+
+Before you attend the tutorial, you'll need to install PsychoPy on your computer.  The simpliest way to do this is to install the stand-alone version of PsychoPy for your system.  PsychoPy works on all versions of Windows, most recent versions of OSX, and Ubuntu or debian-based systems. Download links are provided below.
+
+- [Download Standalone PsychoPy for Windows](https://github.com/psychopy/psychopy/releases/download/1.85.2/StandalonePsychoPy-1.85.2-win32.exe)
+- [Download Standalone PsychoPy for Mac OSX](https://github.com/psychopy/psychopy/releases/download/1.85.2/StandalonePsychoPy-1.85.2-OSX_64bit.dmg)
+- And for Ubuntu or debian-based systems: `sudo apt-get install psychopy`
+
+### Tutorial Schedule
 
 [Day 1](day-1.md)
+[Day 2](day-2.md)
+[Day 3](day-3.md)
+[Day 4](day-4.md)
 
 You can use the [editor on GitHub](https://github.com/kschuler/psychopy-tutorial/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
