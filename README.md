@@ -17,7 +17,7 @@ Before you attend the tutorial, you'll need to install PsychoPy on your computer
 - [Day 1: Overview & Creating an Exposure Phase](day-1.md)
 - [Day 2: Creating a Production Test](day-2.md)
 - [Day 3: Creating a Rating or 2AFC Test](day-3.md)
-- [Day 4: Adding code snippets to access components and handle conditionals](day-4.md)
+- [Day 4: Adding code snippets to for more complex handling](day-4.md)
 
 ### Additional Resources
 - [A video tutorial on how to create a stroop task in PsychoPy](https://www.youtube.com/watch?v=VV6qhuQgsiI) - by the PsychoPy creator, Jon Peirce
