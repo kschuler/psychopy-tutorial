@@ -5,7 +5,7 @@ This is a 4-day tutorial designed to teach you to create psycholinguistics exper
 
 ### Installing PsychoPy
 
-Before you attend the tutorial, you'll need to install PsychoPy on your computer.  The simpliest way to do this is to install the stand-alone version of PsychoPy for your system.  PsychoPy works on all versions of Windows, most recent versions of OSX, and Ubuntu or debian-based systems. Download links are provided below.
+Before you attend the tutorial, you'll need to install PsychoPy on your computer.  The simpliest way to do this is to install the stand-alone version of PsychoPy for your system. 
 
 - [Download Standalone PsychoPy for Windows](https://github.com/psychopy/psychopy/releases/download/1.85.2/StandalonePsychoPy-1.85.2-win32.exe)
 - [Download Standalone PsychoPy for Mac OSX](https://github.com/psychopy/psychopy/releases/download/1.85.2/StandalonePsychoPy-1.85.2-OSX_64bit.dmg)
