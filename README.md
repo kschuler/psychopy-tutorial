@@ -17,7 +17,7 @@ Before you attend the tutorial, you'll need to install PsychoPy on your computer
 - [Day 1: Overview & Creating an Exposure Phase](day-1.md)
 - [Day 2: Creating a Production Test](day-2.md)
 - [Day 3: Creating a Rating or 2AFC Test](day-3.md)
-- [Day 4: Adding code snippets to for more complex handling](day-4.md)
+- [Day 4: Adding code snippets for more complex handling](day-4.md)
 
 ### Additional Resources
 - Ask a question and get an answer on [PsychoPy's support page](http://discourse.psychopy.org/)
