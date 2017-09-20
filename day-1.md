@@ -1,1 +1,1 @@
-First day stuff and things!
+Materials will become available on the scheduled Day 1.
