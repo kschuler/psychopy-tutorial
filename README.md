@@ -1,6 +1,6 @@
 ## Welcome to the PsychoPy Tutorial
 
-This is a 4-day tutorial designed to teach you to create psycholinguistics experiments using [PsychoPy](http://psychopy.org/about/overview.html), a free experiment building platform.  The tutorial will focus on how to use PsychoPy's experiment [Builder](http://psychopy.org/builder/builder.html#builder) to create expriments, for which no programming experience is necessary.  By the end of the tutorial, you will be capable of creating most any kind of experiment in PsychoPy on your own.
+This is a 4-day tutorial designed to teach you to create psycholinguistics experiments using [PsychoPy](http://psychopy.org/about/overview.html), a free experiment building platform.  The tutorial will focus on how to use PsychoPy's experiment [Builder](http://psychopy.org/builder/builder.html#builder) to create expriments, for which no programming is necessary.  By the end of the tutorial, you will be capable of creating most any kind of experiment in PsychoPy on your own.
 
 
 ### Installing PsychoPy
