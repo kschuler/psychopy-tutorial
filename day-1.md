@@ -5,9 +5,9 @@
 - Download the files you will need for the tutorial
 
 ### Agenda
-- [Overview](#Overview) (10 mins)
+- [Overview](#overview) (10 mins)
   - Introduce PsychoPy and its builder method
-- [Demo](#Demo) (30 mins)
+- [Demo](#demo) (30 mins)
   - Planning and storyboarding an experiment
   - Creating the exposure phase of the experiment
 - [Activity](#activity) (50 mins)
