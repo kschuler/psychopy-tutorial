@@ -10,7 +10,7 @@
 - [Demo](#Demo) (30 mins)
   - Planning and storyboarding an experiment
   - Creating the exposure phase of the experiment
-- [Activity](#Activity) (50 mins)
+- [Activity](#activity) (50 mins)
   - Find a partner or 2 (coding buddy)
   - Plan and storyboard the "try me" experiment
   - Create the exposure phase of the "try me" experiment
