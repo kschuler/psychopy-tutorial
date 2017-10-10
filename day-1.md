@@ -1,8 +1,8 @@
 ## Day 1: Overview & Creating an Exposure Phase
 
 ### Before we begin
-- Make sure PsychoPy is installed
-- Download the files you will need for the tutorial
+- [Make sure PsychoPy is installed](http://kathrynschuler.com/psychopy-tutorial/)
+- [Download the files](https://www.dropbox.com/sh/s8euesfbbyfd5b7/AADzdnKnfJKXCE0AE4DuvBCea?dl=0) you will need for the tutorial
 
 ### Agenda
 - [Overview](#overview) (10 mins)
@@ -11,7 +11,7 @@
   - Planning and storyboarding an experiment
   - Creating the exposure phase of the experiment
 - [Activity](#activity) (50 mins)
-  - Find a partner or 2 (coding buddy)
+  - Find a partner or 2 (AKA coding buddy)
   - Plan and storyboard the "try me" experiment
   - Create the exposure phase of the "try me" experiment
 
@@ -29,7 +29,7 @@
 
 > We want to create an artificial language learning experiment, which consists of an exposure phase, a production test, and a rating test.  In the exposure phase, we want to expose participants to sentences while they see a corresponding picture.  In the production test, we want participants to hear a singular sentence paired with the corresponding picture and then be asked to provide the plural sentences when viewing the plural image. In the rating test, we want participants see a picture and hear a test sentence, and then rate on a scale from 1 to 5 whether they think that sentence matches the picture.  We want to make sure we collect some information from the participant, like their participant id number, gender, and what language condition they will participate in.
 > 
-> Plan and storyboard this experiment, then create dialog box and the exposure phase.  (Production and rating tests will be completed later in the week.)
+> Plan and storyboard this experiment, then create the dialog box and the exposure phase.  (Note: production and rating tests will be completed later in the week.)
 
 -	Experiment creation always begins with planning and storyboarding.  You should make sure you know exactly what you want to do in your experiment before you begin.  What stimuli you’ll use, what your conditions will be, exactly what subjects should see and hear – even down to exactly where on the screen you want things to appear.
 
@@ -43,19 +43,20 @@
 - You can use these values to change the size of the inner polygon as the trial numbers increase.  The simplest way to do this is in the size value of the polygon itself.  If the outer polygon is something like 500 pixels wide by 50 pixels wide, you could do:
     - Set every repeat, because you want this to dynamically update
     - `[(loopName.thisN/loopName.nTotal) *500, 40]`
-- Two conditions 3 ways. There are also a number of ways you could run different conditions, or versions, of your experiment.  (1) The simplest possible way to do this is to simply create a completely separate .pxyexp file.  You could name one “run-language-b.psyexp” and the other “run-condition-b.psyexp”.  You’d want to make sure you note the experiment condition somewhere (probably in the dialog box), so that the data file updates accordingly.  (2) Another simple approach is to have the name of the condition file be the name of you input into the dialog box. (3) If you want to allow a selection in the dialog box to enable you to create a second condition, another thing you could do is insert a code snippet at the beginning of the experiment that sets the condition files for the experiment.  For example, if you have to language conditions, A and B, we might have the experimenter enter A or B into the dialog box for language.  This information would then be stored in expInfo:
+- Two conditions 3 ways. There are also a number of ways you could run different conditions, or versions, of your experiment.  (1) The simplest possible way to do this is to simply create a completely separate .pxyexp file.  You could name one “run-language-b.psyexp” and the other “run-condition-b.psyexp”.  You’d want to make sure you note the experiment condition somewhere (probably in the dialog box), so that the data file updates accordingly.  (2) Another simple approach is to have the name of the condition file be the name of your input into the dialog box. (3) If you want to allow a selection in the dialog box to enable you to create a second condition, another thing you could do is insert a code snippet at the beginning of the experiment that sets the condition files for the experiment.  For example, if you have to language conditions, A and B, we might have the experimenter enter A or B into the dialog box for language.  This information would then be stored in expInfo:
     - `expInfo[‘language’]`
     - You can use this value to set the condition file:
- ```python
-  If expInfo[‘language’] == “A”:
-      exposureFile = “conditions/language-a-exposure.xlsx”
-  elseif expInfo[‘language’] == “B”:
-      exposureFile = “conditions/language-b-exposure.xlsx”
+
+```python
+If expInfo[‘language’] == “A”:
+  exposureFile = “conditions/language-a-exposure.xlsx”
+elif expInfo[‘language’] == “B”:
+  exposureFile = “conditions/language-b-exposure.xlsx”
  ```
 
 ### Activity
 
-Select a partner/coding buddy. You will work on this together.  You should both create the experiment on your computers, but your experiments should be identical. 
+Select a partner/coding buddy. You will work on this together.  You should both create the experiment on your individual computers, but your experiments should be identical. 
 
 > Now you want to create another artificial language experiment.  This experiment also has an exposure phase, production test, and rating test.  However, this time, your stimuli are videos instead of images.  Create the following parts of the experiment in the following ways:
 
