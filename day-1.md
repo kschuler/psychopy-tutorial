@@ -46,7 +46,7 @@
 - Two conditions 3 ways. There are also a number of ways you could run different conditions, or versions, of your experiment.  (1) The simplest possible way to do this is to simply create a completely separate .pxyexp file.  You could name one “run-language-b.psyexp” and the other “run-condition-b.psyexp”.  You’d want to make sure you note the experiment condition somewhere (probably in the dialog box), so that the data file updates accordingly.  (2) Another simple approach is to have the name of the condition file be the name of you input into the dialog box. (3) If you want to allow a selection in the dialog box to enable you to create a second condition, another thing you could do is insert a code snippet at the beginning of the experiment that sets the condition files for the experiment.  For example, if you have to language conditions, A and B, we might have the experimenter enter A or B into the dialog box for language.  This information would then be stored in expInfo:
     - `expInfo[‘language’]`
     - You can use this value to set the condition file:
-  ```python
+ ```python
   If expInfo[‘language’] == “A”:
       exposureFile = “conditions/language-a-exposure.xlsx”
   elseif expInfo[‘language’] == “B”:
