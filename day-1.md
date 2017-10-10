@@ -47,7 +47,7 @@
     - `expInfo[‘language’]`
     - You can use this value to set the condition file:
 
-```python
+```
 If expInfo[‘language’] == “A”:
   exposureFile = “conditions/language-a-exposure.xlsx”
 elif expInfo[‘language’] == “B”:
