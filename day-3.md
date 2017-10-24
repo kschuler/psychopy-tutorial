@@ -22,7 +22,7 @@
 
 ### Rating test demo
 - As with the production test, we will first add the stimuli we want to present.  For the rating test, participants will see an image and hear a corresponding sentence.  We will ask them to rate this sentences on a scale from 1-5.
-- Psychopy has a RatingScale component that you can add to any routine.  Responses can be made with the keyboard or the mouse.  There are some basic options for how the scale is displayed which we will demonstrate now.  You can view descriptions of these options on the psychopy website: ()[http://www.psychopy.org/builder/components/ratingscale.html]
+- Psychopy has a RatingScale component that you can add to any routine.  Responses can be made with the keyboard or the mouse.  There are some basic options for how the scale is displayed which we will demonstrate now.  You can view descriptions of these options on the psychopy website: [](http://www.psychopy.org/builder/components/ratingscale.html)
 
 
 ### 2AFC test demo
