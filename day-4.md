@@ -4,7 +4,7 @@
 - Using what we already have learned, you could use a rating component or a keypress component that stores the correct answer.
 - But what if you want the subject to click on the picture with the mouse?  This requires adding a mouse component and using some simple code.  You'll want to add this code every *frame* because you want the mouse to listen for clicks as frequently as possible.
 
----
+```
 for stimulus in [noun_1, noun_2]:
   if mouse.isPressedIn(stimulus):
     if stimulus.image == corrAns:
@@ -13,7 +13,7 @@ for stimulus in [noun_1, noun_2]:
       thisExp.addData('correct', 'False')
     continueRoutine = False
     break
----
+```
 
 Great! That works. But what if you want the stimulus to DO something whenever iti s clicked?  For example, maybe you want the stimulus to turn a little transparent to indicate it was the option selected?  These are called "conditionals" and they always require the use of code.
 
@@ -21,25 +21,25 @@ You'll also need to make changes to component *attributes* via code.  All psycho
 
 1. By setting the attribute equal to a new value
 
----
+```
 someComponent.someAttribute = newValue
 
 # for example
 image.opacity = 1.0
----
+```
 
 2. By using the function for changing the attribute
 
----
+```
 someComponent.changeAttributeFunction(newValue)
 
 # for example
 image.setOpacity(newValue)
----
+```
 
 So to make one of the images change to transparent we could do the following.
 
----
+```
 for stimulus in [noun_1, noun_2]:
   if mouse.isPressedIn(stimulus):
     if stimulus.image == corrAns:
@@ -53,7 +53,7 @@ for stimulus in [noun_1, noun_2]:
     stimulus.setOpacity(1.0)
     continueRoutine = False
     break
----
+```
 
 Note that we had to *draw* the stimulus to the screen again, *flip* the window again, and *wait* a little bit so that we are able to observe the change.
 
