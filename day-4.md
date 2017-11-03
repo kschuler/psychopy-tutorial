@@ -17,18 +17,18 @@ Great! That works. But what if you want the stimulus to DO something whenever it
 
 You'll also need to make changes to component *attributes* via code.  All psychopy attributes are available via the API: [http://www.psychopy.org/api/api.html](http://www.psychopy.org/api/api.html).  Most attributes can be changed in one of two ways:
 
-1. By setting the attribute equal to a new value
+##### 1. By setting the attribute equal to a new value
 
-```
+```python
 someComponent.someAttribute = newValue
 
 # for example
 image.opacity = 1.0
 ```
 
-2. By using the function for changing the attribute
+##### 2. By using the function for changing the attribute
 
-```
+```python
 someComponent.changeAttributeFunction(newValue)
 
 # for example
@@ -37,7 +37,7 @@ image.setOpacity(newValue)
 
 So to make one of the images change to transparent we could do the following.
 
-```
+```python
 for stimulus in [noun_1, noun_2]:
   if mouse.isPressedIn(stimulus):
     if stimulus.image == corrAns:
