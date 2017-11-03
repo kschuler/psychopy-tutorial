@@ -1,10 +1,8 @@
 ## Day 4: Adding code snippets for more complex handling
 
-- Imagine that we want to play a simple matching game in which the child hears the noun and is asked to select the correct image.
-- Using what we already have learned, you could use a rating component or a keypress component that stores the correct answer.
-- But what if you want the subject to click on the picture with the mouse?  This requires adding a mouse component and using some simple code.  You'll want to add this code every *frame* because you want the mouse to listen for clicks as frequently as possible.
+Imagine that we want to play a simple matching game in which the child hears the noun and is asked to select the correct image. Using what we already have learned, you could use a rating component or a keypress component that stores the correct answer. But what if you want the subject to click on the picture with the mouse?  This requires adding a mouse component and using some simple code.  You'll want to add this code every *frame* because you want the mouse to listen for clicks as frequently as possible.
 
-```
+```python
 for stimulus in [noun_1, noun_2]:
   if mouse.isPressedIn(stimulus):
     if stimulus.image == corrAns:
