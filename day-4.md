@@ -62,4 +62,4 @@ Note that we had to *draw* the stimulus to the screen again, *flip* the window a
 1. Add an additional two stimuli to the matching game (norg and spad)
 2. Attempt to make a square appear around the stimulus when it is clicked.  The square should appear red if an incorrect answer is clicked and green if the correct answer is clicked.
 
-*Hint:* Think about what *attributes* a polygon (also called a ShapeStim) has.  For example, color.  You may need to use the 
+*Hint:* Think about what *attributes* a polygon (also called a ShapeStim) has.  For example, color.  You may need to use the API to discover the attributes.
