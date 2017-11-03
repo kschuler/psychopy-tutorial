@@ -15,7 +15,7 @@ for stimulus in [noun_1, noun_2]:
     break
 ```
 
-Great! That works. But what if you want the stimulus to DO something whenever iti s clicked?  For example, maybe you want the stimulus to turn a little transparent to indicate it was the option selected?  These are called "conditionals" and they always require the use of code.
+Great! That works. But what if you want the stimulus to DO something whenever it is clicked?  For example, maybe you want the stimulus to turn a little transparent to indicate it was the option selected?  These are called "conditionals" and they always require the use of code.
 
 You'll also need to make changes to component *attributes* via code.  All psychopy attributes are available via the API: [http://www.psychopy.org/api/api.html](http://www.psychopy.org/api/api.html).  Most attributes can be changed in one of two ways:
 
